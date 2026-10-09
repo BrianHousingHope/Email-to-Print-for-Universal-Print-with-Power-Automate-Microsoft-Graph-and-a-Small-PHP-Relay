@@ -264,7 +264,7 @@ Use Parse JSON rather than Compose here. If a Compose holds `@{json(...)}` as an
 
 ### Get printer capabilities
 
-Add an **HTTP With Microsoft Entra ID** action named `Get_capabilities`:
+Add an **HTTP With Microsoft Entra ID** action named `Get capabilities`:
 
 ```
 GET https://graph.microsoft.com/v1.0/print/shares/{shareId}?$select=capabilities
