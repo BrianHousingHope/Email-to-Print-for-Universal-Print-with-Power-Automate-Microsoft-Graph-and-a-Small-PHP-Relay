@@ -243,7 +243,8 @@ The prompt's answer comes back as a **string** in `responsev2.predictionOutput.t
 
 - **Content:**
   ```
-@{outputs('Run_a_prompt')?['body/responsev2/predictionOutput/text']}  ```
+  @{outputs('Run_a_prompt')?['body/responsev2/predictionOutput/text']}  
+  ```
 - **Schema:**
   ```json
   {
