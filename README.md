@@ -52,7 +52,7 @@ The non-preauthorized connector starts with no permissions. If you try to create
 
 https://learn.microsoft.com/en-us/connectors/webcontentsv2/#authorize-the-connector-to-act-on-behalf-of-a-signed-in-user
 
-Find the connector's client app ID in Microsoft's connector documentation, in the section **"Authorize the connector to act on behalf of a signed-in user"**. Then run the following as a Global Admin or Privileged Role Admin:
+Run the following as a Global Admin or Privileged Role Admin:
 
 ```powershell
 Connect-MgGraph -Scopes "Application.ReadWrite.All","DelegatedPermissionGrant.ReadWrite.All"
